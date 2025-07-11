@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hasda's Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: 'Inter', sans-serif;
+      background: #0f172a;
+      color: #f1f5f9;
+      padding: 2rem;
+    }
+    header {
+      text-align: center;
+      margin-bottom: 3rem;
+    }
+    h1 {
+      font-size: 2.5rem;
+      color: #38bdf8;
+    }
+    p {
+      color: #cbd5e1;
+    }
+    section {
+      margin-bottom: 2rem;
+    }
+    .project {
+      background: #1e293b;
+      padding: 1rem;
+      border-radius: 10px;
+      margin-bottom: 1rem;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    }
+    .project h3 {
+      margin: 0 0 0.5rem;
+      color: #facc15;
+    }
+    .project p {
+      margin: 0.5rem 0;
+    }
+    .project a {
+      color: #38bdf8;
+      text-decoration: none;
+    }
+    footer {
+      text-align: center;
+      font-size: 0.9rem;
+      color: #64748b;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Muhammad Hasda Putra Dimyati</h1>
+    <p>Fullstack Web Developer & Informatics Student @ Universitas Hasyim Asy'ari</p>
+  </header>
+
+  <section>
+    <h2>💻 Web Projects</h2>
+
+    <div class="project">
+      <h3>Sistem Diagnosa Penyakit (UAS Kecerdasan Buatan)</h3>
+      <p>Aplikasi web berbasis Flask dan HTML untuk mendiagnosa penyakit berdasarkan gejala yang dipilih pengguna.</p>
+      <p><strong>Tech Stack:</strong> Python (Flask), HTML, CSS, CSV</p>
+      <p><a href="https://web-production-cccc1.up.railway.app/" target="_blank">🔗 Live Demo</a> | <a href="https://github.com/Hill-JAVAnese/uas-ai" target="_blank">📦 GitHub Repo</a></p>
+    </div>
+
+    <!-- Tambah proyek lainnya di bawah ini -->
+    <!-- <div class="project">...</div> -->
+
+  </section>
+
+  <footer>
+    Dibuat dengan 💙 oleh Hasda • 2025
+  </footer>
+</body>
+</html>
